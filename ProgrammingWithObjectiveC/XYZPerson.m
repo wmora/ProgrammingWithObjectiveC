@@ -12,7 +12,14 @@
 @implementation XYZPerson
 
 - (void)sayHello {
-    NSLog(@"Hello, world!");
+    [self sayHelloTo:nil];
+}
+
+- (void)sayHelloTo:(NSString *)who {
+    NSString *name = who == nil ? @"world" : who;
+    NSString *greeting = [NSString stringWithFormat:@"Hello, %@!", name];
+    
+    NSLog(@"%@", greeting);
 }
 
 @end

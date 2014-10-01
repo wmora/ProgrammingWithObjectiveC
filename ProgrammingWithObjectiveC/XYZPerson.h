@@ -15,5 +15,6 @@
 + (id)person;
 
 - (void)sayHello;
+- (void)sayHelloTo: (NSString*) who;
 
 @end
