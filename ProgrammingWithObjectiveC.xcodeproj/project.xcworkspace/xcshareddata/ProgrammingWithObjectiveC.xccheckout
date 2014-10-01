@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>7FEC0F10-5D49-4D68-A568-3FF6408D8760</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ProgrammingWithObjectiveC</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D364378F46E8934FA44D5C7C65F58B613142850A</key>
+		<string>https://github.com/wmora/ProgrammingWithObjectiveC.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ProgrammingWithObjectiveC.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D364378F46E8934FA44D5C7C65F58B613142850A</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/wmora/ProgrammingWithObjectiveC.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D364378F46E8934FA44D5C7C65F58B613142850A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D364378F46E8934FA44D5C7C65F58B613142850A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ProgrammingWithObjectiveC</string>
+		</dict>
+	</array>
+</dict>
+</plist>
