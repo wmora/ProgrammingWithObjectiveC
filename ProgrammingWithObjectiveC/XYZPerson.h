@@ -12,9 +12,12 @@
 @property NSString *lastName;
 @property NSDate *dateOfBirth;
 
+- (id)initWithFirstName: (NSString *) firstName lastName: (NSString *) lastName;
+
 + (id)person;
 
 - (void)sayHello;
 - (void)sayHelloTo: (NSString*) who;
+- (void)sayHelloToSomeone;
 
 @end

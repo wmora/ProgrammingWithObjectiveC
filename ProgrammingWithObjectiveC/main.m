@@ -25,6 +25,12 @@ int main(int argc, const char * argv[]) {
         } else {
             NSLog(@"Person is not nil");
         }
+        
+        XYZPerson *personWithName = [[XYZPerson alloc] initWithFirstName:@"John" lastName:@"Doe"];
+        NSMutableString *mutableName = [NSMutableString stringWithString:@"Marty"];
+        [personWithName setFirstName:mutableName];
+        [personWithName setLastName:@"McFly"];
+        [personWithName sayHelloToSomeone];
     }
     return 0;
 }
