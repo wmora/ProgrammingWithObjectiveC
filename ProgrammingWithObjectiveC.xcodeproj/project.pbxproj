@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		087D48B819DB973900424EBA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 087D48B719DB973900424EBA /* main.m */; };
 		087D48C219DB9AC700424EBA /* XYZPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 087D48C119DB9AC700424EBA /* XYZPerson.m */; };
+		087D48C619DC2EBF00424EBA /* XYZShoutingPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 087D48C519DC2EBF00424EBA /* XYZShoutingPerson.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		087D48B719DB973900424EBA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		087D48C019DB990400424EBA /* XYZPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYZPerson.h; sourceTree = "<group>"; };
 		087D48C119DB9AC700424EBA /* XYZPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZPerson.m; sourceTree = "<group>"; };
+		087D48C419DC2E4E00424EBA /* XYZShoutingPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYZShoutingPerson.h; sourceTree = "<group>"; };
+		087D48C519DC2EBF00424EBA /* XYZShoutingPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZShoutingPerson.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 				087D48B719DB973900424EBA /* main.m */,
 				087D48C019DB990400424EBA /* XYZPerson.h */,
 				087D48C119DB9AC700424EBA /* XYZPerson.m */,
+				087D48C419DC2E4E00424EBA /* XYZShoutingPerson.h */,
+				087D48C519DC2EBF00424EBA /* XYZShoutingPerson.m */,
 			);
 			path = ProgrammingWithObjectiveC;
 			sourceTree = "<group>";
@@ -124,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				087D48C219DB9AC700424EBA /* XYZPerson.m in Sources */,
+				087D48C619DC2EBF00424EBA /* XYZShoutingPerson.m in Sources */,
 				087D48B819DB973900424EBA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -238,6 +244,7 @@
 				087D48BD19DB973900424EBA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

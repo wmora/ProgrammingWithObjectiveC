@@ -8,12 +8,23 @@
 
 #import <Foundation/Foundation.h>
 #import "XYZPerson.h"
+#import "XYZShoutingPerson.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
         XYZPerson *person = [[XYZPerson alloc] init];
         [person sayHelloTo:@"Will"];
+        
+        XYZShoutingPerson *shoutingPerson = [XYZShoutingPerson person];
+        [shoutingPerson sayHelloTo:@"you"];
+        
+        XYZPerson *nilPerson;
+        if (!nilPerson) {
+            NSLog(@"Person is nil");
+        } else {
+            NSLog(@"Person is not nil");
+        }
     }
     return 0;
 }

@@ -11,6 +11,11 @@
 
 @implementation XYZPerson
 
++ (id)person
+{
+    return [[self alloc] init];
+}
+
 - (void)sayHello {
     [self sayHelloTo:nil];
 }
